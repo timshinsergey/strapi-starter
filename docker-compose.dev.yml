@@ -4,7 +4,7 @@ services:
     container_name: strapi
     build:
       dockerfile: Dockerfile.dev
-    image: engels-dev:latest
+    image: strapi-dev:latest
     restart: unless-stopped
     env_file: .env
     environment:
