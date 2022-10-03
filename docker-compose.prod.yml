@@ -22,7 +22,7 @@ services:
       # AWS_ACCESS_SECRET: ${AWS_ACCESS_SECRET}
       # AWS_REGION: ${AWS_REGION}
       # AWS_BUCKET: ${AWS_BUCKET}
-      NODE_ENV: production
+      NODE_ENV: ${NODE_ENV}
     volumes:
       - ./config:/opt/app/config
       - ./src:/opt/app/src
