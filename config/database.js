@@ -12,5 +12,12 @@ module.exports =  ({ env }) => ({
       },
 		},
     debug: false,
-	}
+	},
+  // connection: {
+  //   client: 'sqlite',
+  //   connection: {
+  //     filename: '.tmp/data.db',
+  //   },
+  //   useNullAsDefault: true,
+  // },
 });
